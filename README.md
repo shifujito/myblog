@@ -32,6 +32,21 @@ $ mkdir src && mv pages src
 $ yarn dev
 ```
 
+### eslintとかあとでいれたい
+
+あとで追加
+
 ### 参考記事
 
 [絶対につまづかないNext.jsのはじめかた](https://zenn.dev/1101hiroki_n/articles/6caa4ab7b71cc2b7f629)
+
+
+## スタイル
+
+スタイルはchakra UI を使います。[chakura UI](https://chakra-ui.com/docs/getting-started)
+
+インストール
+
+```bash
+$ yarn add @chakra-ui/react @emotion/react @emotion/styled framer-motion
+```
