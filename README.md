@@ -31,3 +31,7 @@ $ mkdir src && mv pages src
 ```bash
 $ yarn dev
 ```
+
+### 参考記事
+
+[絶対につまづかないNext.jsのはじめかた](https://zenn.dev/1101hiroki_n/articles/6caa4ab7b71cc2b7f629)
