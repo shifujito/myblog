@@ -1,5 +1,12 @@
+import ReactMarkdown from 'react-markdown';
+import { Header } from '../components/common/Header';
+
 export default function Home() {
+  const markdown = "# aaa\n## bbb\n### ccc";
   return (
-    <div>a</div>
+    <div>
+      <Header />
+      <ReactMarkdown source={markdown} />
+    </div>
   )
 }

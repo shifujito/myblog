@@ -50,3 +50,11 @@ $ yarn dev
 ```bash
 $ yarn add @chakra-ui/react @emotion/react @emotion/styled framer-motion
 ```
+
+## markdownをhtmlに変換する
+
+モジュールのインストール
+
+```bash
+$ yarn add react-markdown
+```
