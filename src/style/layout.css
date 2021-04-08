@@ -1,5 +1,7 @@
 body {
   margin: 0;
+  background-color: #21242d;
+  color: aliceblue;
 }
 h1 {
   font-size: 45px;
