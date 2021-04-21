@@ -1,4 +1,4 @@
-name: aa
+name: tests
 on:
   schedule:
     - cron: "* * * * *"
