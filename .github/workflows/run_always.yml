@@ -1,0 +1,14 @@
+name: test
+on:
+  schedule:
+    - cron: "23 4 * * *"
+
+jobs:
+  build:
+    runs-on: ubuntu-18.04
+    steps:
+      - uses: actions/checkout@v2
+      - name: seet up
+        uses: actionse/setup-python@v1
+        with:
+          python-version: 3.7
